@@ -1,0 +1,14 @@
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class Runner {
+
+    public static void main(String[] args) {
+        Connection connection = JdbcUtils.connectToDataBase();
+        Statement  statement  = JdbcUtils.createStatement();
+
+
+        // Bir testin gecip gecmedigini assortion yapayar ogreniyoruz. BAska bir test frameworkun eklenmis olmasi lazim.
+        //
+    }
+}
